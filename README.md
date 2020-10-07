@@ -1,5 +1,5 @@
 # A Whale Off the Port(folio)
-
+#### Assignment to show learning of pandas, python, and financial topics over the last several weeks in the Rice University FinTech Bootcamp!
 
 ---
 
@@ -16,9 +16,8 @@
 
 ---
 
-## General info
-
-
+## General information
+The following repository encompasses skills learned regarding Python, the Pandas library, and quantitative analysis techniques.  The assignment is to create a tool, an analysis notebook, that analyzes and visualizes portfolios across the various metrics to determin which portfolios outperformed the others and the market.
 
 ---
 
