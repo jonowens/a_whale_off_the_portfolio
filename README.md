@@ -22,8 +22,22 @@ The following repository encompasses skills learned regarding Python, the Pandas
 ---
 
 ## Screenshots
+### Various tools and metrics used in the analysis
+* Combined Whale, Algorithmic, and S&P 500 Returns
 
+![Combined Whale, Algorithmic, and S&P 500 Returns](./Images/combined_returns_dataframes.png)
 
+* Performance - Cumulative Returns
+
+![Cumulative Returns](./Images/cumulative_returns.png)
+
+* Range of Risk
+
+![Risk](./Images/portfolio_risk.png)
+
+* Correlation Heatmap
+
+![Correlation Heatmap](./Images/correlation_heatmap.png)
 
 ---
 
