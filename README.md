@@ -140,7 +140,7 @@ rolling_beta.plot(figsize=(20,10), title="Berkshire Hathaway Inc Beta")
 
 ## Status
 
-Project is: _in progress_
+Project is: _finished_
 
 ---
 
