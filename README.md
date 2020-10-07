@@ -122,19 +122,13 @@ rolling_beta.plot(figsize=(20,10), title="Berkshire Hathaway Inc Beta")
 
 3. VS Code opens.  Select the main.ipynb file in the PyBank directory.
 
-    ![Open VS Code and select whale_analysis.ipynb](./Images/.png)
+    ![Open VS Code and select whale_analysis.ipynb](./Images/select_whale_analysis.ipynb.png)
 
 4. Click the Run All Cells button, double arrows, to run all cells in the Jupyter Notebook file.
 
-    ![Run All Cells](./Images/PyBank_Click_Run_All_Cells.png)
+    ![Run All Cells](./Images/run_all_cells.png)
 
-5. All cells in the notbook run and a summary displays at the bottom of the screen along with a summary.txt file created in the root of the PyBank directory.
-
-    ![Summary Output](./Images/PyBank_Output_Summary.png)
-    
-    ![Summary.txt in root directory](./Images/PyBank_Summary.txt_File.png)
-
-
+5. All cells in the notbook run.
 
 ---
 
