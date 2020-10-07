@@ -76,7 +76,37 @@ The following repository encompasses skills learned regarding Python, the Pandas
 
 ## Code Examples
 
+- Calculating cumulative returns and plotting data
 
+``` python
+# Plot cumulative returns
+cumulative_returns = (1 + combined_returns).cumprod()
+cumulative_returns.plot(title="Cumulative Returns", figsize=(20,10))
+```
+
+- To compare which portfolios carry a greater risk than the S&P 500 based on daily standard deviation.
+
+``` python
+# Determine which portfolios are riskier than the S&P 500
+index_num = 0
+for portfolio in combined_daily_std:
+    if portfolio > combined_daily_std["S&P 500"]:
+        true_false = "True"
+        print(f"{combined_daily_std.index[index_num]:<30}{true_false:>6}")
+    else:
+        true_false = "False"
+        print(f"{combined_daily_std.index[index_num]:<30}{true_false:>6}")
+    index_num += 1
+```
+
+- Calculating Beta for one portfolio compared to the S&P 500 and plotting the information.
+
+``` python
+rolling_covariance = combined_returns['BERKSHIRE HATHAWAY INC'].rolling(window=21).cov(combined_returns['S&P 500'])
+rolling_variance = combined_returns['S&P 500'].rolling(window=21).var()
+rolling_beta = rolling_covariance / rolling_variance
+rolling_beta.plot(figsize=(20,10), title="Berkshire Hathaway Inc Beta")
+```
 
 ---
 
