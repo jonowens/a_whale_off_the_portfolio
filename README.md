@@ -56,8 +56,21 @@ The following repository encompasses skills learned regarding Python, the Pandas
 ---
 
 ## Installation Guide
+1. Download entire repository titled, a_whale_off_the_portfolio
 
+2. Open Git Terminal
+    
+    ![Open Git Terminal](./Images/open_git_terminal.png)
+    
+3. Navigate into repository file path where the repository downloaded.
 
+    ![Navigate to Repository](./Images/navigate_to_repository.png)
+
+4. The files should be visible and ready to run by typing the 'ls' command in the prompt and pressing the Enter key on your keyboard.  You should see the following files and the whale_analysis.ipynb notebook.
+
+    ![Files Visible](./Images/files_visible.png)
+
+*See [Usage](#usage) section below for instructions how to run the program.
 
 ---
 
