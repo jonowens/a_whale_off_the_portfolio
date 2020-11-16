@@ -147,5 +147,5 @@ Project is: _finished_
 ## Contributors
 
 * Jonathan Owens
-* Jonathan.Owens@gmail.com,
-* LinkedIn: www.linkedin.com/in/jonathan-owens-b7951219
+* Jonathan.Owens@gmail.com
+* LinkedIn: www.linkedin.com/in/jonowens
